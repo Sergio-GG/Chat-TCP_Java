@@ -1,3 +1,3 @@
-#!/bin/bash
-echo "Starting server..."
+#!/bin/sh
+echo "Starting server on port $PORT"
 java -jar chat-server.jar
